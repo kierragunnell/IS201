@@ -7,6 +7,7 @@ img{
     margin-left: auto;
     margin-right: auto;
     width: 25%;
+    height:auto;
 }
 .video-container {
     position: relative;
