@@ -1,0 +1,61 @@
+ul{
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+    height:0%;
+}
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    height: 0;
+    overflow: hidden;
+  }
+  
+  .video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: auto
+    height: auto;
+  }
+  .my-class {
+    color: red;
+    font-family: Arial, sans-serif;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+  }
+  
+  .my-other-class {
+    color: blue;
+    font-family: "Helvetica Neue", sans-serif;
+    position: relative;
+    top: 20px;
+    left: 20px;
+  }
+  
+  .another-class {
+    color: green;
+    font-family: "Times New Roman", serif;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+  
+  .yet-another-class {
+    color: purple;
+    font-family: Verdana, sans-serif;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+  
+  
+  
+  
+  
